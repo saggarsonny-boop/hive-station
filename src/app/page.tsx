@@ -4,8 +4,8 @@ import { useRouter } from 'next/navigation'
 
 const LINKS = [
   { label: 'Production Dashboard', url: '/dashboard', icon: '📊', desc: 'Live engine status — daily audit report', internal: true },
-  { label: 'Creator Console', url: 'https://creator-console-steel.vercel.app', icon: '🎛️', desc: 'Platform stats and engine management' },
-  { label: 'Queen Bee', url: 'https://queen-bee-v1.vercel.app', icon: '👑', desc: 'AI orchestration and routing layer' },
+  { label: 'Creator Console', url: 'https://creatorconsole.hive.baby', icon: '🎛️', desc: 'Platform stats and engine management' },
+  { label: 'Queen Bee', url: 'https://queenbee.hive.baby', icon: '👑', desc: 'AI orchestration and routing layer' },
   { label: 'Hive Engine Builder', url: 'https://heb.hive.baby', icon: '⚙️', desc: 'Build and configure new engines' },
   { label: 'hive.baby', url: 'https://hive.baby', icon: '🌍', desc: 'The planet — front door to the Hive' },
 ]
