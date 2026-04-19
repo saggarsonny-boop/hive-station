@@ -5,7 +5,6 @@ const LINKS = [
   { label: 'Creator Console', url: 'https://creator-console-steel.vercel.app', icon: '🎛️', desc: 'Platform stats and engine management' },
   { label: 'Queen Bee', url: 'https://queen-bee-v1.vercel.app', icon: '👑', desc: 'AI orchestration and routing layer' },
   { label: 'Hive Engine Builder', url: 'https://heb.hive.baby', icon: '⚙️', desc: 'Build and configure new engines' },
-  { label: 'Stats', url: 'https://creator-console-steel.vercel.app/dashboard', icon: '📊', desc: 'Live platform metrics' },
 ]
 
 const STARS = Array.from({ length: 80 }, (_, i) => ({
