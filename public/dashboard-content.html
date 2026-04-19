@@ -28,6 +28,9 @@ body{font-family:'DM Mono',monospace;background:var(--bg);color:var(--text);min-
 .subtitle{font-size:11px;color:var(--muted);margin-top:2px}
 .timestamp{font-size:11px;color:var(--muted);text-align:right}
 .fetch-btn{background:var(--surface2);border:1px solid var(--border2);color:var(--gold);font-family:'DM Mono',monospace;font-size:11px;padding:6px 14px;border-radius:6px;cursor:pointer;transition:all 0.15s;margin-top:6px}
+.back-links{display:flex;gap:12px;align-items:center;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:1px solid var(--border)}
+.back-link{font-size:11px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:5px;transition:color 0.15s}
+.back-link:hover{color:var(--text)}
 .fetch-btn:hover{border-color:var(--gold);background:var(--bg)}
 .fetch-btn:disabled{opacity:0.4;cursor:not-allowed}
 
@@ -97,6 +100,12 @@ body{font-family:'DM Mono',monospace;background:var(--bg);color:var(--text);min-
 </style>
 </head>
 <body>
+
+<div class="back-links">
+  <a href="https://hive.baby" class="back-link" target="_blank">🌍 hive.baby</a>
+  <span style="color:var(--border2)">·</span>
+  <a href="https://station.hive.baby" class="back-link" target="_blank">🛸 Hive Station</a>
+</div>
 
 <div class="header">
   <div class="header-left">
