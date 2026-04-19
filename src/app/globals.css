@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap');
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html, body { height: 100%; background: #03040a; color: #c8d6f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; }
 
@@ -20,4 +21,10 @@ html, body { height: 100%; background: #03040a; color: #c8d6f0; font-family: -ap
   border-radius: 50%;
   background: white;
   animation: twinkle var(--d, 3s) ease-in-out var(--delay, 0s) infinite;
+}
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
 }
