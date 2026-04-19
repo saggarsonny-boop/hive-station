@@ -107,6 +107,7 @@ body{font-family:'DM Mono',monospace;background:var(--bg);color:var(--text);min-
     </div>
   </div>
   <div class="timestamp">
+    <div id="local-clock" style="font-size:13px;color:var(--gold2);font-weight:500;margin-bottom:3px"></div>
     <div id="report-date">No report loaded</div>
     <button class="fetch-btn" onclick="fetchReport()" id="fetch-btn">
       Fetch latest from GitHub
@@ -363,6 +364,18 @@ function parseAndRender(md) {
 
   document.getElementById('dashboard').innerHTML = html;
 }
+
+function updateClock() {
+  const el = document.getElementById('local-clock');
+  if (!el) return;
+  const now = new Date();
+  const local = now.toLocaleString('en-US', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone, weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+  const tz = Intl.DateTimeFormat().resolvedOptions().timeZone.replace('_', ' ');
+  el.textContent = `${local} (${tz})`;
+}
+updateClock();
+setInterval(updateClock, 1000);
+fetchReport();
 </script>
 </body>
 </html>
