@@ -55,6 +55,7 @@ const BUILDING_ENGINES = [
   { label: 'HiveMemorySpace', url: 'https://hivememoryspace.hive.baby', icon: '🧠', desc: 'Semantic memory engine' },
   { label: 'HiveAdminSupport', url: 'https://support.hive.baby', icon: '📧', desc: 'Auto-acknowledge support emails' },
   { label: 'Universal Document', url: 'https://ud.hive.baby', icon: '📄', desc: 'Next-gen document format' },
+  { label: 'SovereignArbitrage', url: 'https://sovereignarbitrage.hive.baby', icon: '⚡', desc: '10 engines for asymmetric advantage' },
 ]
 
 const STARS = Array.from({ length: 80 }, (_, i) => ({
