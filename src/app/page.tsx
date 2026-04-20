@@ -1,6 +1,5 @@
 'use client'
 import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
 
 type LinkItem = { label: string; url: string; icon: string; desc: string; internal?: boolean }
 
@@ -71,7 +70,6 @@ const STARS = Array.from({ length: 80 }, (_, i) => ({
 const PW = 'hivebees'
 
 export default function StationPage() {
-  const router = useRouter()
   const [locked, setLocked] = useState(true)
   const [input, setInput] = useState('')
   const [error, setError] = useState(false)
