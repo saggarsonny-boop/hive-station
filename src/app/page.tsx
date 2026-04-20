@@ -48,6 +48,7 @@ const LIVE_ENGINES = [
   { label: 'WhoTextedMe', url: 'https://whotextedme.hive.baby', icon: '📱', desc: 'Free reverse phone lookup' },
   { label: 'UD Reader', url: 'https://ud.hive.baby', icon: '📖', desc: 'Read Universal Documents' },
   { label: 'UD Converter', url: 'https://converter.hive.baby', icon: '🔄', desc: 'Convert any file to UD' },
+  { label: 'UD Utilities', url: 'https://udutilities.hive.baby', icon: '🔧', desc: 'Merge, split, OCR, redact, protect' },
 ]
 
 const BUILDING_ENGINES = [
