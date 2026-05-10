@@ -24,6 +24,8 @@ html, body { height: 100%; background: #03040a; color: #c8d6f0; font-family: -ap
 }
 
 :root {
+  --hive-gold: #D4AF37;
+
   --font-display: 'Syne', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
